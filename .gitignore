@@ -1,0 +1,63 @@
+# Dependencies
+node_modules/
+package-lock.json
+yarn.lock
+
+# Build output
+build/
+dist/
+
+# Testing
+coverage/
+
+# Runtime files
+*.log
+*.cache
+*.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Editor directories and files
+.vscode/
+.idea/
+*.swp
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Temporary files
+*.tmp
+*.temp
+*.bak
+
+# Parcel-bundler cache (if applicable)
+.cache/
+
+# JetBrains IDEs
+*.iml
+.idea/
+
+# React specific
+public/*.cache
+public/env-config.js
+
+# MacOS specific
+.DS_Store
+
+# SASS cache
+.sass-cache
+
+# Optional npm cache
+.npm/
+
+# Ignore debug and profiling data
+debug.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Ignore lint rule overrides
+.eslintcache
